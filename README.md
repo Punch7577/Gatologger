@@ -2,7 +2,7 @@
 
 ## ⌨ A simple keylogger which logs keys into a text file and then sends it to a Discord server of your liking via its webhook.
 
-This keylogger is a software which is easy to use, and effective. It is supposed to do as intended. It sends logged keys to a Discord server. You can use the code by itself, or you can use this fork this repo for whatever you would like. *You will need requests installed*
+This keylogger is a software which is easy to use, and effective. It is supposed to do as intended. It sends logged keys to a Discord server. You can use the code by itself, or you can use this fork this repo for whatever you would like.
 
 
 
