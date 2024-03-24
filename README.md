@@ -38,7 +38,8 @@ to update. If so, run the update.
 "The keylogger will not work".
 
 Double check to see if you set up the keylogger properly. If you did, then that could potentially be an issue with Python. Check if it needs to update, or if you have it installed on your system properly. You could also try testing the code on a different website
-or application to see if it works there. If this does not work, then see if the settings on your computer are blocking it from working. Also check the OS you are using, and see if it might be compatible with your system.
+or application to see if it works there. If this does not work, then see if the settings on your computer are blocking it from working. Also check the OS you are using, and see if it might be compatible with your system. If it still does not work, then
+try seeing if the keys are being appended into the text file. If they are not, then try creating your own text file and replacing every 'txt.txt' in the code with the name of your text file.
 
 
 "The backspace button does not work properly".
@@ -46,7 +47,7 @@ or application to see if it works there. If this does not work, then see if the 
 Yes, that is a problem that I am aware of. This is the BETA version of the keylogger, and I plan to fully resolve the issue in the final build.
 
 
-"The logged keys do not get sent to the discord text channel even though I put in a webhook"
+"The logged keys do not get sent to the discord text channel even though I put in a webhook".
 
 Check whether or not your webhook works, or try another webhook. Realistically, the HTTP response code you should be getting is 204. 
 
