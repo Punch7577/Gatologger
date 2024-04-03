@@ -21,9 +21,8 @@ This keylogger is a software which is easy to use, and effective. It is supposed
 
 1. Access the code.
 2. Input the Discord webhook of the text channel which you want to send logged keys to in the url variable in line #10.
-3. Create a new text file and give it a name of your liking.
-4. Scroll down to the JSON code on line #48. Set up the Avatar of the bot, the bot's username, what you want the bot to say when it sends the keys, and the color (the avatar and color are optional. Do not change the description though).
-5. Done! You can use the keylogger by running Keylogger.py by double clicking, or by using it with a command line.
+3. Scroll down to the JSON code on line #48. Set up the Avatar of the bot, the bot's username, what you want the bot to say when it sends the keys, and the color (the avatar and color are optional. Do not change the description though).
+4. Done! You can use the keylogger by running Keylogger.py by double clicking, or by using it with a command line.
 
 ## ❓ Troubleshooting
 
