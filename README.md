@@ -1,4 +1,4 @@
-# Keylogger with Discord Webhook *BETA*
+# Keylogger with Discord Webhook
 
 ## ⌨ A simple keylogger which logs keys into a text file and then sends it to a Discord server of your liking via its webhook.
 
@@ -42,7 +42,7 @@ try seeing if the keys are being appended into the text file. If they are not, t
 
 "The backspace button does not work properly".
 
-Yes, that is a problem that I am aware of. This is the BETA version of the keylogger, and I plan to fully resolve the issue in the final build.
+Yes, that is a problem that I am aware of, but I do not really care.
 
 
 "The logged keys do not get sent to the discord text channel even though I put in a webhook".
