@@ -42,7 +42,7 @@ try seeing if the keys are being appended into the text file. If they are not, t
 
 "The backspace button does not work properly".
 
-Yes, that is a problem that I am aware of, but I do not really care.
+Yes, that is a problem that I am aware of, but I do not really care. I am too lazy to fix it.
 
 
 "The logged keys do not get sent to the discord text channel even though I put in a webhook".
